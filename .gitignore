@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+
+# Environment variables & API keys
+.env
+.env*.local
+**/.env
+
+# Local database
+server/data/*.db
+server/data/*.db-shm
+server/data/*.db-wal
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor directories
+.vscode/
+.idea/
